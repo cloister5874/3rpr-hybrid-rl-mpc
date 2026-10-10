@@ -1,0 +1,29 @@
+3-RPR SAC FINAL RESULTS
+======================================================================
+
+Algorithm: Soft Actor-Critic (SAC)
+Model: sac_expert_sac_final.pt
+Evaluation tasks: 100
+Random seed: 12345
+Simulation steps/task: 300
+Time step: 0.01
+
+STATE RANGE
+LOW  = [0.4000000059604645, 0.4000000059604645, -0.10000000149011612, -0.10000000149011612, -0.10000000149011612, -0.10000000149011612]
+HIGH = [0.6000000238418579, 0.6000000238418579, 0.10000000149011612, 0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+
+ACTION RANGE
+[-2, 2] for each of the three forces
+
+RESULTS
+----------------------------------------------------------------------
+Average initial pose error : 0.133843
+Average final pose error   : 0.125840
+Average improvement        : 0.008004
+Average best pose error    : 0.047840
+Best final error           : 0.007304
+Worst final error          : 0.462037
+Average episode reward     : -48.798258
+Successes                  : 60/100
+Success rate               : 60.00%
+Unstable tasks             : 0/100
